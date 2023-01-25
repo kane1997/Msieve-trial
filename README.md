@@ -1,7 +1,11 @@
 # Msieve-trial
 
 
-This guide is designed to help experienced computer users who are beginners to factoring numbers larger than 90 digits with the Number Field Sieve (NFS) algorithm.  It will guide you on how to use the GGNFS and MSIEVE software tools to accomplish this. For numbers smaller than 90 digits, the Quadratic Sieve (QS) should be used with such programs as MSIEVE or YAFU.  It is important to choose a reasonable factoring algorithm for the size of number you are attempting to factor.  For example, the 100 digit integer below took almost 80 days to factor using the ECM algorithm, while GNFS takes only hours.  Similarly, small numbers should be factored with something other than GNFS such as ECM or QS.
+大数分解
+
+This guide is designed to help experienced computer users who are beginners to factoring numbers larger than 90 digits with the Number Field Sieve (NFS) algorithm.  It will guide you on how to use the GGNFS and MSIEVE software tools to accomplish this. 
+
+For numbers smaller than 90 digits, the Quadratic Sieve (QS) should be used with such programs as MSIEVE or YAFU.  It is important to choose a reasonable factoring algorithm for the size of number you are attempting to factor.  For example, the 100 digit integer below took almost 80 days to factor using the ECM algorithm, while GNFS takes only hours.  Similarly, small numbers should be factored with something other than GNFS such as ECM or QS.
 
 This guide shows an example of how to factor the following 100 digit integer using the General Number Field Sieve (GNFS) with Brian Gladman's factmsieve.py python script which uses both ggnfs and msieve tools:
 2881039827457895971881627053137530734638790825166127496066674320241571446494762386620442953820735453
